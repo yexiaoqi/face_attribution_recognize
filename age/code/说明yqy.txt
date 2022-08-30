@@ -1,0 +1,6 @@
+justtest用训练完的caffemodel计算测试集年龄的mae
+agerangetest用训练完的caffemodel计算测试集的mae,分别测试20~60岁，20~40岁的mae
+agecollect.py是用于wikiandcelera年龄属性图像数目统计并写入excel
+fine_tune是成功训练年龄的主程序，和./age_proto/yhtmobilenet中的prototxt对应
+multilabelandimg是生成年龄标签的lmdb文件代码
+pretrainsolver是拷贝预训练的参数再进行训练年龄的代码，同时存储.caffemodel文件（注意如果网络选了resnet18的prototxt，那么相应的.caffemodel也应该选择resnet18，而不能用alexnet什么的），默认是训练整个网络

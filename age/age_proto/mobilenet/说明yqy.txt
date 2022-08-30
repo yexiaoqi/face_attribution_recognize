@@ -1,0 +1,2 @@
+180822_age_mobilenet_v2_deploy.prototxt是实时测试年龄的deploy
+age_mobilenet_v2_test.prototxt，age_mobilenet_v2_train.prototxt是mobilenet、Ordinal Regression with Multiple Output CNN for Age Estimation进行年龄检测的prototxt

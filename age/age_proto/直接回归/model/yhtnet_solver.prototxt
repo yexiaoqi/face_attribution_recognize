@@ -1,0 +1,15 @@
+train_net: "model/yhtnet_train.prototxt"
+test_net: "model/yhtnet_test.prototxt"
+test_iter: 50
+test_interval: 2000
+base_lr: 0.002
+max_iter: 600000
+lr_policy: "poly"
+power: 1
+momentum: 0.9
+weight_decay: 0.0004
+snapshot: 2000
+snapshot_prefix: "tmp/mobilenet_v2"
+solver_mode: GPU
+random_seed: 549275
+type: "Nesterov"

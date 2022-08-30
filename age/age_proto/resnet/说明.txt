@@ -1,0 +1,1 @@
+age_resnet18_multi_test1.prototxt,age_resnet18_multi_train1.prototxt是resnet、Ordinal Regression with Multiple Output CNN for Age Estimation进行年龄检测的prototxt

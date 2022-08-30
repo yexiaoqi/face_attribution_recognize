@@ -1,0 +1,16 @@
+train_net: "E:/face_attribute_recognition_yqy/mobilenet_v2_train.prototxt"
+test_net: "E:/face_attribute_recognition_yqy/mobilenet_v2_test.prototxt"
+test_iter: 15000
+test_interval: 1000
+base_lr: 0.0045
+momentum: 0.9
+weight_decay: 0.00004
+lr_policy: "inv"
+gamma: 0.0001
+power: 0.75
+display: 100
+max_iter: 500000
+snapshot: 50000
+snapshot_prefix: "E:/face_attribute_recognition_yqy/face_attr_recog"
+solver_mode: GPU
+type: "SGD"

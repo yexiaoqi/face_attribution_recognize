@@ -1,0 +1,4 @@
+img_LMDB是将图像转为lmdb文件代码（by yht）
+createlmdb也是成功的将图像转为lmdb文件代码
+lmdb2img是将lmdb转回为图像的代码
+lenetwithfacerecog是训练神经网络进行性别分类的代码，face_attr_recog_solver.prototxt，face_attr_recog_test.prototxt，face_attr_recog_train.prototxt分别是solver，train，test文件
